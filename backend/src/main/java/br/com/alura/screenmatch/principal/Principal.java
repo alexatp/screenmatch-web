@@ -19,7 +19,6 @@ public class Principal {
     private ConverteDados conversor = new ConverteDados();
     private final String ENDERECO = "https://www.omdbapi.com/?t=";
     private final String API_KEY = "&apikey=629eb3bd";
-    private List<DadosSerie> dadosSeries = new ArrayList<>();
 
     private SerieRepository repositorio;
     private List<Serie> series = new ArrayList<>();
